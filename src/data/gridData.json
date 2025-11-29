@@ -1,0 +1,290 @@
+[
+    {
+        "id": "A1",
+        "row": 1,
+        "col": 1,
+        "usage": 45,
+        "status": "optimal",
+        "name": "Block A1"
+    },
+    {
+        "id": "A2",
+        "row": 1,
+        "col": 2,
+        "usage": 78,
+        "status": "warning",
+        "name": "Block A2"
+    },
+    {
+        "id": "A3",
+        "row": 1,
+        "col": 3,
+        "usage": 20,
+        "status": "optimal",
+        "name": "Block A3"
+    },
+    {
+        "id": "A4",
+        "row": 1,
+        "col": 4,
+        "usage": 92,
+        "status": "critical",
+        "name": "Block A4"
+    },
+    {
+        "id": "A5",
+        "row": 1,
+        "col": 5,
+        "usage": 55,
+        "status": "optimal",
+        "name": "Block A5"
+    },
+    {
+        "id": "A6",
+        "row": 1,
+        "col": 6,
+        "usage": 30,
+        "status": "optimal",
+        "name": "Block A6"
+    },
+    {
+        "id": "B1",
+        "row": 2,
+        "col": 1,
+        "usage": 60,
+        "status": "warning",
+        "name": "Block B1"
+    },
+    {
+        "id": "B2",
+        "row": 2,
+        "col": 2,
+        "usage": 15,
+        "status": "optimal",
+        "name": "Block B2"
+    },
+    {
+        "id": "B3",
+        "row": 2,
+        "col": 3,
+        "usage": 88,
+        "status": "critical",
+        "name": "Block B3"
+    },
+    {
+        "id": "B4",
+        "row": 2,
+        "col": 4,
+        "usage": 40,
+        "status": "optimal",
+        "name": "Block B4"
+    },
+    {
+        "id": "B5",
+        "row": 2,
+        "col": 5,
+        "usage": 25,
+        "status": "optimal",
+        "name": "Block B5"
+    },
+    {
+        "id": "B6",
+        "row": 2,
+        "col": 6,
+        "usage": 70,
+        "status": "warning",
+        "name": "Block B6"
+    },
+    {
+        "id": "C1",
+        "row": 3,
+        "col": 1,
+        "usage": 35,
+        "status": "optimal",
+        "name": "Block C1"
+    },
+    {
+        "id": "C2",
+        "row": 3,
+        "col": 2,
+        "usage": 50,
+        "status": "optimal",
+        "name": "Block C2"
+    },
+    {
+        "id": "C3",
+        "row": 3,
+        "col": 3,
+        "usage": 95,
+        "status": "critical",
+        "name": "Block C3"
+    },
+    {
+        "id": "C4",
+        "row": 3,
+        "col": 4,
+        "usage": 10,
+        "status": "optimal",
+        "name": "Block C4"
+    },
+    {
+        "id": "C5",
+        "row": 3,
+        "col": 5,
+        "usage": 65,
+        "status": "warning",
+        "name": "Block C5"
+    },
+    {
+        "id": "C6",
+        "row": 3,
+        "col": 6,
+        "usage": 42,
+        "status": "optimal",
+        "name": "Block C6"
+    },
+    {
+        "id": "D1",
+        "row": 4,
+        "col": 1,
+        "usage": 82,
+        "status": "critical",
+        "name": "Block D1"
+    },
+    {
+        "id": "D2",
+        "row": 4,
+        "col": 2,
+        "usage": 28,
+        "status": "optimal",
+        "name": "Block D2"
+    },
+    {
+        "id": "D3",
+        "row": 4,
+        "col": 3,
+        "usage": 58,
+        "status": "warning",
+        "name": "Block D3"
+    },
+    {
+        "id": "D4",
+        "row": 4,
+        "col": 4,
+        "usage": 33,
+        "status": "optimal",
+        "name": "Block D4"
+    },
+    {
+        "id": "D5",
+        "row": 4,
+        "col": 5,
+        "usage": 75,
+        "status": "warning",
+        "name": "Block D5"
+    },
+    {
+        "id": "D6",
+        "row": 4,
+        "col": 6,
+        "usage": 18,
+        "status": "optimal",
+        "name": "Block D6"
+    },
+    {
+        "id": "E1",
+        "row": 5,
+        "col": 1,
+        "usage": 48,
+        "status": "optimal",
+        "name": "Block E1"
+    },
+    {
+        "id": "E2",
+        "row": 5,
+        "col": 2,
+        "usage": 90,
+        "status": "critical",
+        "name": "Block E2"
+    },
+    {
+        "id": "E3",
+        "row": 5,
+        "col": 3,
+        "usage": 22,
+        "status": "optimal",
+        "name": "Block E3"
+    },
+    {
+        "id": "E4",
+        "row": 5,
+        "col": 4,
+        "usage": 62,
+        "status": "warning",
+        "name": "Block E4"
+    },
+    {
+        "id": "E5",
+        "row": 5,
+        "col": 5,
+        "usage": 38,
+        "status": "optimal",
+        "name": "Block E5"
+    },
+    {
+        "id": "E6",
+        "row": 5,
+        "col": 6,
+        "usage": 52,
+        "status": "optimal",
+        "name": "Block E6"
+    },
+    {
+        "id": "F1",
+        "row": 6,
+        "col": 1,
+        "usage": 12,
+        "status": "optimal",
+        "name": "Block F1"
+    },
+    {
+        "id": "F2",
+        "row": 6,
+        "col": 2,
+        "usage": 85,
+        "status": "critical",
+        "name": "Block F2"
+    },
+    {
+        "id": "F3",
+        "row": 6,
+        "col": 3,
+        "usage": 44,
+        "status": "optimal",
+        "name": "Block F3"
+    },
+    {
+        "id": "F4",
+        "row": 6,
+        "col": 4,
+        "usage": 68,
+        "status": "warning",
+        "name": "Block F4"
+    },
+    {
+        "id": "F5",
+        "row": 6,
+        "col": 5,
+        "usage": 26,
+        "status": "optimal",
+        "name": "Block F5"
+    },
+    {
+        "id": "F6",
+        "row": 6,
+        "col": 6,
+        "usage": 56,
+        "status": "optimal",
+        "name": "Block F6"
+    }
+]

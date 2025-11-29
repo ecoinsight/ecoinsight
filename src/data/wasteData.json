@@ -1,0 +1,98 @@
+[
+    {
+        "month": "Jan",
+        "plastic": 120,
+        "paper": 150,
+        "glass": 80,
+        "organic": 200,
+        "ewaste": 30
+    },
+    {
+        "month": "Feb",
+        "plastic": 115,
+        "paper": 140,
+        "glass": 85,
+        "organic": 190,
+        "ewaste": 35
+    },
+    {
+        "month": "Mar",
+        "plastic": 130,
+        "paper": 160,
+        "glass": 90,
+        "organic": 210,
+        "ewaste": 40
+    },
+    {
+        "month": "Apr",
+        "plastic": 125,
+        "paper": 155,
+        "glass": 88,
+        "organic": 205,
+        "ewaste": 32
+    },
+    {
+        "month": "May",
+        "plastic": 140,
+        "paper": 170,
+        "glass": 95,
+        "organic": 220,
+        "ewaste": 45
+    },
+    {
+        "month": "Jun",
+        "plastic": 135,
+        "paper": 165,
+        "glass": 92,
+        "organic": 215,
+        "ewaste": 38
+    },
+    {
+        "month": "Jul",
+        "plastic": 145,
+        "paper": 175,
+        "glass": 100,
+        "organic": 230,
+        "ewaste": 50
+    },
+    {
+        "month": "Aug",
+        "plastic": 150,
+        "paper": 180,
+        "glass": 105,
+        "organic": 240,
+        "ewaste": 55
+    },
+    {
+        "month": "Sep",
+        "plastic": 142,
+        "paper": 172,
+        "glass": 98,
+        "organic": 225,
+        "ewaste": 42
+    },
+    {
+        "month": "Oct",
+        "plastic": 138,
+        "paper": 168,
+        "glass": 94,
+        "organic": 218,
+        "ewaste": 36
+    },
+    {
+        "month": "Nov",
+        "plastic": 132,
+        "paper": 162,
+        "glass": 91,
+        "organic": 212,
+        "ewaste": 34
+    },
+    {
+        "month": "Dec",
+        "plastic": 128,
+        "paper": 158,
+        "glass": 89,
+        "organic": 208,
+        "ewaste": 31
+    }
+]

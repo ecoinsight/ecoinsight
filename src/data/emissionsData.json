@@ -1,0 +1,27 @@
+[
+    {
+        "sector": "Transport",
+        "emissions": 450,
+        "previous": 480
+    },
+    {
+        "sector": "Industry",
+        "emissions": 320,
+        "previous": 300
+    },
+    {
+        "sector": "Residential",
+        "emissions": 210,
+        "previous": 220
+    },
+    {
+        "sector": "Agriculture",
+        "emissions": 150,
+        "previous": 160
+    },
+    {
+        "sector": "Commercial",
+        "emissions": 180,
+        "previous": 190
+    }
+]

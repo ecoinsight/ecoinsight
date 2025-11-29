@@ -1,0 +1,42 @@
+{
+    "split": [
+        {
+            "name": "Renewable",
+            "value": 45
+        },
+        {
+            "name": "Non-Renewable",
+            "value": 55
+        }
+    ],
+    "weekly": [
+        {
+            "day": "Mon",
+            "usage": 420
+        },
+        {
+            "day": "Tue",
+            "usage": 380
+        },
+        {
+            "day": "Wed",
+            "usage": 450
+        },
+        {
+            "day": "Thu",
+            "usage": 410
+        },
+        {
+            "day": "Fri",
+            "usage": 390
+        },
+        {
+            "day": "Sat",
+            "usage": 350
+        },
+        {
+            "day": "Sun",
+            "usage": 330
+        }
+    ]
+}
