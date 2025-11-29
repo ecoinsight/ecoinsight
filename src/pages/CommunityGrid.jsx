@@ -37,13 +37,13 @@ const CommunityGrid = () => {
     };
 
     return (
-        <div className="space-y-8 h-[calc(100vh-140px)] flex flex-col">
-            <div className="flex items-center justify-between">
+        <div className="space-y-8 h-auto lg:h-[calc(100vh-140px)] flex flex-col">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                 <div>
                     <h1 className="text-2xl font-bold text-neutral-900">The Living Grid</h1>
                     <p className="text-neutral-500">Real-time community energy heatmap.</p>
                 </div>
-                <div className="flex gap-4 text-sm">
+                <div className="flex flex-wrap gap-4 text-sm w-full md:w-auto">
                     <div className="flex items-center gap-2">
                         <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
                         <span className="text-neutral-600">Optimal</span>
@@ -56,7 +56,7 @@ const CommunityGrid = () => {
                         <div className="w-3 h-3 rounded-full bg-red-500 animate-pulse"></div>
                         <span className="text-neutral-600">Critical</span>
                     </div>
-                    <div className="relative ml-4">
+                    <div className="relative ml-auto md:ml-4">
                         <button
                             onClick={() => setShowExportMenu(!showExportMenu)}
                             className="bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors shadow-sm shadow-primary/20 flex items-center gap-2"
@@ -94,10 +94,10 @@ const CommunityGrid = () => {
                 </div>
             </div>
 
-            <div className="flex-1 flex gap-8 min-h-0">
+            <div className="flex-1 flex flex-col lg:flex-row gap-8 min-h-0">
                 {/* Grid Visualization */}
-                <div className="flex-1 glass-panel p-8 flex items-center justify-center relative overflow-hidden">
-                    <div className="grid grid-cols-6 gap-4 w-full max-w-2xl aspect-square">
+                <div className="flex-1 glass-panel p-8 flex items-center justify-center relative overflow-hidden min-h-[400px]">
+                    <div className="grid grid-cols-4 sm:grid-cols-6 gap-3 sm:gap-4 w-full max-w-2xl aspect-square">
                         {filteredData.map((block) => (
                             <motion.button
                                 key={block.id}
@@ -144,7 +144,7 @@ const CommunityGrid = () => {
                 </div>
 
                 {/* Details Panel */}
-                <div className="w-96 glass-panel p-6 flex flex-col">
+                <div className="w-full lg:w-96 glass-panel p-6 flex flex-col">
                     <h2 className="text-xl font-bold text-neutral-900 mb-6">Block Details</h2>
 
                     <AnimatePresence mode="wait">

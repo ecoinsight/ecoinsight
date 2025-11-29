@@ -16,4 +16,24 @@
   .card-hover {
     @apply transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-primary/5 hover:border-primary/20;
   }
+
+  /* Aggressive reset for Recharts focus outlines */
+  .recharts-wrapper,
+  .recharts-wrapper *,
+  .recharts-surface,
+  .recharts-layer,
+  div[class^="recharts-"],
+  div[class*=" recharts-"],
+  .recharts-responsive-container {
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-focus-ring-color: transparent !important;
+  }
+
+  /* Target by attribute if classes fail */
+  [role="region"][class*="recharts"],
+  [tabindex="0"][class*="recharts"] {
+    outline: none !important;
+  }
 }
